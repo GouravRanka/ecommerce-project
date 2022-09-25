@@ -1,0 +1,47 @@
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    margin: 2rem 0rem;
+    position: relative;
+
+}
+
+.productsSection {
+    margin: 2rem 0rem;
+  
+}
+
+.title {
+    margin-left: 3rem;
+}
+.arrow {
+    width: 3rem;
+    height: 3rem;
+    z-index: 40;
+  background-color: black;
+  
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+    transform: translateY(-50%);
+
+}
+
+.arrowBack {
+    left: 1rem;
+}
+.arrowForward {
+    right: 1rem;
+}
+
+.arrowImage{
+    filter: invert(1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

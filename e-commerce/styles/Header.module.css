@@ -1,0 +1,45 @@
+.header{
+background-color: #f1613a;
+    display: flex;
+    width: 100vw;
+    height: 4rem;
+    align-items: center;
+    box-shadow: 2px 2px 10px #f1613a;
+    justify-content: space-between;
+    padding: 0rem 3rem;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+
+}
+.menuItems{
+    display: flex;
+    align-items: center;
+ 
+}
+.menuItem{
+    margin: 0px 1rem;
+    color: white;
+}
+.menuItem:hover{
+    box-shadow: 2px 2px 10px gray;
+
+}
+.button{
+    padding: 0.6rem 1.6rem;
+    background-color: white;
+    color: black;
+    margin: 0px 0.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.7rem;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 10px white;
+}
+.arrowIcon{
+    color: white;
+    font-size: 1.2rem;
+}

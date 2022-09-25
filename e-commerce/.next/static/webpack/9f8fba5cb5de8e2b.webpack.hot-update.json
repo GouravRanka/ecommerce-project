@@ -1,0 +1,1 @@
+{"c":["pages/index","webpack"],"r":[],"m":["./components/slider/Slider.tsx","./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[4].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[4].use[2]!./styles/Slider.module.css","./styles/Slider.module.css"]}

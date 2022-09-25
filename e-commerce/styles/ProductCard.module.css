@@ -1,0 +1,79 @@
+.productCard {
+    height: 20rem;
+    width: 80%;
+    margin: 1rem auto;
+    border-bottom: 1px solid #f1613a;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    position: relative;
+    background-color: white;
+
+}
+
+.productCard:hover {
+    transform: scale(1.1);
+}
+
+.productImage {
+    width: 100%;
+    cursor: pointer;
+    height: 70%;
+
+}
+
+.addToCart {
+    background-color: black;
+    border-radius: 17px;
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 2px 2px 10px white;
+    transform: translateX(-50%);
+    /* transform: translateY(-50%); */
+}
+
+.priceDiv {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 0.5rem;
+    margin-top: 0.8rem;
+    position: relative;
+}
+
+.priceDiv>p[id] {
+    text-decoration: line-through;
+}
+
+.priceDiv>p {
+    margin: 0px 0.3rem;
+}
+
+.productCard>p {
+    margin: 0.5rem 1rem;
+}
+
+.wishlistdiv {
+    position: absolute;
+    left: 87%;
+    top: 2;
+}
+
+.wishlistHeadingDiv {
+    position: absolute;
+    left: 74%;
+    top: 12px;
+    /* background-color: grey; */
+    width: 6rem;
+    opacity: 0.7;
+    z-index: 3;
+
+}
+.wishlistHeadingDiv>p{
+    font-size: 12px;
+}

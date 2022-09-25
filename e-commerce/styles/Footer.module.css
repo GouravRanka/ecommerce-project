@@ -1,0 +1,22 @@
+.footerSection{
+    width: 99vw;
+    margin: auto;
+    height: auto;
+    padding: 1rem 3rem;
+    background-color: #f1613a;
+   
+}
+.footerData{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+ 
+    }
+ .copyrightDiv{
+ align-self: baseline;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+ }

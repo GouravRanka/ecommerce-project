@@ -1,0 +1,39 @@
+.sliderImage {
+    width: 100%;
+    height: 100%;
+
+}
+
+.sliderDiv {
+    width: 98vw;
+margin: 1rem auto;
+    height: 25rem;
+    position: relative;
+}
+
+.arrow {
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    /* color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+    transform: translateY(-50%);
+
+}
+
+.arrowBack {
+    left: 1rem;
+}
+
+.arrowForward {
+    right: 1rem;
+}
+.arrowImage{
+    /* filter: invert(1); */
+}

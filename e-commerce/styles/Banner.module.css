@@ -1,0 +1,10 @@
+.banner{
+    width: 98vw;
+    margin: auto ;
+ 
+ 
+}
+.bannerImage{
+    width: 100%;
+    /* object-fit: contain; */
+}
