@@ -15,11 +15,10 @@ const Products = ({ title }: { title: string }) => {
     const [firstIndex, setFirstIndex] = useState(0)
     const [lastIndex, setLastIndex] = useState(6)
 
-
-    // All hooks 
-    useEffect(() => {
-        getProductData()
-    }, [])
+    // // All hooks 
+    // useEffect(() => {
+    //     getProductData()
+    // }, [])
 
 
 
@@ -53,7 +52,7 @@ const Products = ({ title }: { title: string }) => {
 
 
     return (
-        productData.length > 0 &&
+        // productData.length > 0 &&
         <div className={styles.productsSection}>
 
             {/* <div  >
